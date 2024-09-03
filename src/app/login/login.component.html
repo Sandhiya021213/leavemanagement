@@ -1,0 +1,17 @@
+<div class="login-container">
+    <h1>Login</h1>
+        <form>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" [(value)]="username" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" [(value)]="password" required>
+            </div>
+            <div>
+                <button type="submit"(click)="submit()">Login</button>
+            </div>
+        </form>
+    
+</div>
